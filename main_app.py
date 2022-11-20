@@ -11,4 +11,4 @@ def webhook():
     return 'webhook App with Python Flask!'
 
 if __name__=="__main__":
-    app.run()
+    app.run(host='0.0.0.0')
