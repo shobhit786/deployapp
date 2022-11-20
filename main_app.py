@@ -10,4 +10,5 @@ def index():
 def webhook():
     return 'webhook App with Python Flask!'
 
-app.run()
+if __name__=="__main__":
+    app.run()
